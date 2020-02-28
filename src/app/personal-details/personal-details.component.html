@@ -1,0 +1,100 @@
+<div class="row">
+    <!-- box at horizontally center-->
+    <div class="col-lg-11 col-xl-9 mx-auto">
+
+        <div class="card" style="background-color: wheat;">
+
+            <div class="card-header bg-secondary text-white" >
+                <h1>Profile Wizard</h1>
+            </div>
+
+            <div class="card-body">
+                <!-- box 1 starts -->
+                <div class="box-1 rounded">
+                    <div >
+                       <!-- <div class="col-lg-3 text-center p-3" style="border-top: solid 5px green">
+                            <div>
+                                <span class="badge badge-pill badge-success p-4" style="font-size:30px ;background-color: #008000;">0</span>
+                            </div>
+                            <div>
+                                <h5>START</h5>
+                            </div>
+                        </div>-->
+                        <div class="col-lg-3 text-center p-3 margin-5px" style="border-top: solid 5px green;">
+                            <div>
+                                <span class="badge badge-pill badge-success p-4" style="font-size:30px;background-color: green;">1</span>
+                            </div>
+                            <div>
+                                <h5>Personal Details</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 text-center p-3" style="border-top: solid 5px #b2cfe4">
+                            <div>
+                                <span class="badge badge-pill badge-success p-4" style="font-size:30px">2</span>
+                            </div>
+                            <div>
+                                <h5>Skills</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 text-center p-3" style="border-top: solid 5px #b2cfe4">
+                            <div>
+                                <span class="badge badge-pill badge-secondary p-4" style="font-size:30px">3</span>
+                            </div>
+                            <div>
+                                <h5>Contact Details</h5>
+                            </div>
+                        </div>
+                          <div class="col-lg-3 text-center p-3" style="border-top: solid 5px #b2cfe4 ; ">
+                            <div>
+                                <span class="badge badge-pill badge-secondary p-4" style="font-size:30px">4</span>
+                            </div>
+                            <div>
+                                <h5>Work Experience</h5>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <!-- box 1 ends -->
+
+                <!-- box 2 starts -->
+                <div class="box-2 pt-2" >
+                    <h3 style="background-color: white;">Step 1: Personal Details</h3>
+
+                    <div class="row" style="padding-bottom: 20px;">
+                        <div class="col-xl-9 mx-auto mt-3">
+
+                            <!-- Name -->
+                            <div class="form-group form-row" style="padding-left: 50px;">
+                                <label for="Name" class="col-md-4 col-form-label">First Name: </label>
+                                <div class="col-md-11" style="margin:5px;">
+                                    <input type="text" class="form-control" name="Name" id="Name">
+                                </div>
+                            </div>
+
+                            <!-- Lastname -->
+                            <div class="form-group form-row" style="padding-left: 50px;">
+                                <label for="Last_Name" class="col-md-4 col-form-label">Last Name:</label>
+                                <div class="col-md-11" style="margin:5px;">
+                                    <input type="text" class="form-control" name="Last_Name" id="Last_Name"></div>
+                                </div>
+                            </div>
+
+                           <br/>
+                           <br/>
+                           <br/>
+
+                        </div>
+                  
+                <!-- box 2 ends -->
+            
+            </div>
+                   
+            <div class="card-footer text-right" style="background-color: wheat; padding:5px; border-top: blue;border-width: 5px;">
+                <a class="btn btn-warning" [routerLink]=" [ '/welcome' ] ">Back</a> &nbsp; &nbsp;
+                <a class="btn btn-primary" [routerLink]=" [ '/step2' ] ">Next</a>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+                
